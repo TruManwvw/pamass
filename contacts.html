@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Контакты | Pamas</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+	<link rel="manifest" href="./favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+	<style>
+		@media (min-width: 768px) {
+			.nav_contacts {
+				background: rgba(0, 0, 0, 0.3);
+			}
+		}
+	</style>
+	<div class="wrapper">
+		<header class="header">
+			<div class="fixed-item" id="f-i"></div>
+			<div class="header_top">
+				<div class="_container">
+					<div class="header_logo"><a href="index.html"><img src="./imag/logo.webp" alt="logo"></a></div>
+					<div class="header_address"><a href="#page_8">г. Новоалтайск, ул. Павла Корчагина, 1</a></div>
+					<div class="header_phone-number"><a href="tel:+79999999999">8 999 <span>999-999</span></a></div>
+					<div class="menu-burger">
+						<div class="burger-body">
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header_nav">
+				<div class="_container _nav">
+					<a href="index.html"><div class="nav_main">Главная</div></a>
+					<a href="index.html#page_2"><div class="nav_products">Наша продукция</div></a>
+					<a href="index.html#page_5"><div class="nav_production">Наше производство</div></a>
+					<a href="pin_wholesale.html"><div class="nav_pin-wholesale">Саморез оптом</div></a>
+					<a href="dowel_wholesale.html"><div class="nav_dowel-wholesale">Дюбель оптом</div></a>
+					<a href="news.html"><div class="nav_news">Новости</div></a>
+					<a href="index.html#page_7"><div class="nav_about">О компании</div></a>
+					<a href="contacts.html"><div class="nav_contacts">Контакты</div></a>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="page_contacts">
+				<div class="_container">
+					<div class="nav"><a href="index.html">Главная</a> / Контакты</div>
+					<div class="title">Контакты</div>
+					<div class="contacts">
+						<!-- Пути связи -->
+						<div class="communication_paths">
+							<div class="address"><span class="bold">Адрес</span><br>г.Новоалтайск, ул.Павла Корчагина, 1<br><br></div>
+							<div class="phone_number">
+								<span class="bold">Мы на связи ежедневно с 9:00 до 20:00:</span><br>+7 (3852) 717-797,<br>8-906-945-7464
+							</div>
+							<div class="requisites">
+								<div class="requisites__title">Реквизиты</div>
+								<div class="requisites__info">ООО «РАМАС»<br>ИНН 2221069830<br>КПП 222301001<br>ОГРН 1052201914709</div>
+							</div>
+						</div>
+						<!-- Связаться с нами -->
+						<div class="contact_us">
+							<div class="contact_title">Связаться с нами</div>
+							<form action="mail.php" method="POST" class='contacts__input'>
+								<div class="input-inline">
+									<input type="text" placeholder="Имя" name="user_name" class="input__name"> 
+									<input type="tel" data-tel-input placeholder="Телефон" name="user_tel" class="input__tel">
+								</div>
+								<textarea cols="10" rows="9" placeholder="Сообщение" name="user_message" class="input__textarea"></textarea>
+								<input type="submit" value="Отправить" class="input__button">
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="info-card">
+					<div class="_container">
+						<div class="contacts_info">
+							<h3>Контакты</h3>
+							<div class="point">Офис</div>
+							<div class="address">г.Новоалтайск, ул.Павла Корчагина, 1</div>
+							<div class="point">Склад</div>
+							<div class="address">г.Новоалтайск, ул.Павла Корчагина, 1</div>
+						</div>
+					</div>
+				</div>
+				<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6337736ede15fe2f5dc600ff1c347108a4298e8dd5ab8e46225facfd5fa6b908&amp;source=constructor" width="100%" height="706" frameborder="0"  id='#page_8'></iframe>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="_container">
+				<div class="protection_rights">© РАМАС 2022 г. Все права защищены</div>
+				<div class="address"><a href="#page_8" class="lock_nav_adress">Новоалтайск, ул. Павла Корчагина, 1</a></div>
+				<div class="number"><a href="tel:+79999999999">8 999 <span>999-999</span></a></div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="./js/script.js"></script>
+	<div id='popap'class="popap">
+		<div class="popap__body">
+			<div class="popap__content">
+				<a href="#fixed-item"><div class="popap__cross"></div></a>
+				<div class="popap__gratitude">Спасибо!</div>
+				<div class="popap__text">Наш специалист свяжется с Вами, как можно быстрее</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
